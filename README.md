@@ -8,7 +8,7 @@ This is the **official repository** for our **ICLR 2025 paper**:
 PolyhedronNet introduces an innovative representation learning framework for **3D geometries**, utilizing **surface-attributed graphs** to efficiently encode complex 3D structures. This approach extends polygon-based graph learning techniques into the polyhedral domain, enabling a wide range of applications in **computational geometry, urban modeling, and shape analysis**.
 
 For **2D polygon/multipolygon encoding**, please refer to our related work:  
-🔗 [**PolyGNN Repository**](https://github.com/dyu62/PolyGNN)
+🔗 [**PolygonGNN Repository**](https://github.com/dyu62/PolyGNN)
 
 ## 📜 Paper
 
@@ -30,3 +30,13 @@ To start training, run the following command in the terminal:
 
 ```bash
 python train.py
+```
+### Cite
+```
+@inproceedings{yupolyhedronnet,
+  title={PolyhedronNet: Representation Learning for Polyhedra with Surface-attributed Graph},
+  author={Yu, Dazhou and Zhang, Genpei and Zhao, Liang},
+  booktitle={The Thirteenth International Conference on Learning Representations},
+  year={2025}
+}
+```
