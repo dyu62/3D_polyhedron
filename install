@@ -1,0 +1,19 @@
+CPU
+conda create -n graph python=3.11.8
+conda install pytorch torchvision torchaudio cpuonly -c pytorch
+conda install pyg -c pyg
+pip install torch-scatter
+conda install anaconda::pandas
+conda install anaconda::scikit-learn
+conda install conda-forge::tqdm
+conda install matplotlib tensorboard
+pip install torch_sparse
+
+GPU
+conda create -n graph python=3.10.12
+conda activate graph
+conda install pytorch==1.13.1 torchvision==0.14.1 torchaudio==0.13.1 pytorch-cuda=11.6 -c pytorch -c nvidia
+conda install pyg -c pyg
+conda install conda-forge::torch-scatter
+conda install conda-forge::pytorch_sparse
+conda install matplotlib numpy ipykernel tensorboard pandas hyperopt=0.2.7
